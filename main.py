@@ -51,7 +51,7 @@ valid = 0
 invalid = 0
 redeemed = 0
 
-ctypes.windll.kernel32.SetConsoleTitleW(f'[ Discord Promo Checker ] By H4cK3dR4Du#1337 ~ discord.gg/radutool')
+ctypes.windll.kernel32.SetConsoleTitleW(f'[ Discord Promo Checker ] By PrimeDark ~ https://discord.gg/MPKNp9h6Hj')
 def update_title():
     global total, valid, invalid, redeemed
     ctypes.windll.kernel32.SetConsoleTitleW(f'[ Discord Promo Checker ] | Valid : {valid} | Invalid : {invalid} | Redeemed : {redeemed} | Working Rate : {round(valid/total*100,2)}% | github.com/H4cK3dR4Du')
